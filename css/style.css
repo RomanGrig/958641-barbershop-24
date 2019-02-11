@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #000000;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.inner-page {
+  color: #000000;
+
+  background-color: #f9f6f3;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navig{
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #000000;
+}
+.site-navig,
+.user-navig {
+  list-style: none;
+}
+.site-navig a,
+.user-navig a {
+  color: #ffffff;
+}
+
+.site-navig a:hover,
+.site-navig a:focus,
+.user-navig a:hover,
+.user-navig a:focus {
+  background-color: #242424;
+}
+.advantages-list {
+  list-style: none;
+}
+.advantages-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.index-columns {
+  color: #000000;
+
+  background-color: #f7f4f1;
+  background-image: url("../img/pattern-light.jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.news-list {
+  list-style: none;
+}
+time {
+  text-transform: none;
+}
+
+.gallery-content {
+  background-color: #cccccc;
+  border: 7px solid #ffffff;
+}
+.button {
+  font: inherit;
+
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+.appointment-item input:focus,
+.appointment-item input:hover {
+  border-color: #663d15;
+}
+.main-footer {
+  color: #ffffff;
+
+  background-color: #242424;
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-cotacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.footer-cotacts a:hover,
+.footer-cotacts a:focus {
+  text-decoration: none;
+}
+
+.social-footer {
+  text-align: center;
+}
+
+.social-footer ul {
+  list-style: none;
+}
+.social-button {
+  color: #ffffff;
+}
+.footer-copyright {
+  text-align: center;
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.modal {
+  color: #000000;
+
+  background-color: #f8f3f0;
+  background-image: url("img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+.login-form input:focus{
+  border-color: #663d15;
+}
+.password-restore:hover,
+.password-restore:focus {
+  color: #663d15;
+}
+.login-form .restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.login-form .restore:hover,
+.login-form .restore:focus {
+text-decoration: none;
+}
